@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Store</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Story+Script&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <h1>Fashion Store</h1>
+        <div class="options">
+           <p class="link"> <a href="index.html">Home</a> </p>
+            <p class="link"> <a href="collection.html">Collection</a> </p>
+            <p class="link"> <a href="contact.html">Contact</a> </p>
+        </div>
+
+        <div class="toggle" onclick="show_navbar()">
+
+            <i class="fa-solid fa-bars"></i>
+
+        </div>
+
+    </nav>
+
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="close_navbar1()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+
+        <div class="side-options">
+            <p class="side-link"> <a href="index.html">Home</a> </p>
+            <p class="side-link"> <a href="collection.html">Collection</a> </p>
+            <p class="side-link"> <a href="contact.html">Contact</a> </p>
+
+        </div>
+    </div>
+
+    <center>
+        <div class="Topic">
+    <h1>Fashion Store</h1>
+
+    <h4>Fashion iteam | New Updates | Best Clothings</h4>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, nesciunt distinctio quo veniam eos natus</p>
+    <hr>
+    </div>
+    </center>
+<center>
+    <h1 class="details">For Contact</h1>
+
+    <form class="personal-info">
+        <div>
+        <table >
+            <tr>
+                <td>Name:</td> <td><input type="text" placeholder="Enter your Name"></td>
+            </tr>
+
+           <tr>
+                <td>Age:</td> <td><input type="number" placeholder="Enter your Age"></td>
+            </tr>
+<tr>
+                <td>Gender:</td> 
+                <td>
+                    <input type="radio" name="Gender">Male 
+                    <input type="radio" name="Gender">Felame
+                </td>
+            </tr>
+            
+
+            <tr>
+                <td>Email:</td> <td><input type="text" placeholder="Enter your Email"></td>
+            </tr>
+    
+        </table>
+        </div> 
+         <button>Submit</button>
+    </form>
+
+    <div class="Topic-footer">
+    <div class="footer">
+
+        <div class="footer-container">
+
+            <h1>Fashion Store</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, ex!</p>
+            <div class="logo">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+
+                <div class="mail">
+                    <h4>@2025 fashion store.com</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+    <script src="script.js"></script>
+</body>
+
+</html>

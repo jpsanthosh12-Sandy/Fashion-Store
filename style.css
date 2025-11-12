@@ -1,0 +1,295 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+body
+{
+  font-family: "Story Script", sans-serif;
+  background: #D3959B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #BFE6BA, #D3959B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #BFE6BA, #D3959B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.options
+{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 20px;
+}
+
+.options a
+{
+text-decoration: none;
+color: darkblue;
+}
+.options a:hover
+{
+    text-decoration: underline;
+   color: darkblue;
+}
+
+.side-navbar
+{
+    background-color:burlywood;
+    color: white;
+    width: 30%;
+    height: 100%;
+    position: fixed;
+    top: 0%;
+    left: -60%;
+  padding-left: 20px;
+  padding-top: 50px;
+ transition: 1s;
+}
+
+.side-link
+{
+margin-bottom: 30px;
+}
+
+.side-link a
+{
+    text-decoration: none;
+    color: white;
+
+}
+.side-link a:hover
+{
+    text-decoration: underline;
+}
+
+.header
+{
+display: flex;
+justify-content: center;
+margin-top: 10%;
+gap: 30px;
+padding: 10px;
+}
+
+.header button
+{
+    background-color: beige;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: solid black 3px;
+}
+
+.service-container1
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.service-container2
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.service-container2 div
+{
+    background-color: #f2f4f7;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.new-arrival
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.new-arrival1
+{
+position: relative;
+flex-basis: 20%;
+}
+
+.new-arrival button
+{
+ background-color:beige;
+ padding-left: 25px;
+ padding-right: 25px;
+ padding-bottom: 10px;
+ padding-top: 10px;
+ border-radius: 5px;   
+ border: none;
+ margin-top: 10px;
+ position: absolute;
+ top: 85%;
+ left: 38%;
+ cursor: pointer;
+}
+
+.news
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.news input
+{
+    width: 80vw;
+    padding: 15px;
+border: solid black 5px;
+margin-bottom:10px;
+}
+
+.news button
+{
+    background-color: beige;
+    color:black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 8px;
+    border: solid black 3px;
+    font-size: 20px;
+}
+
+.news button:hover
+{
+    background-color:red;
+    cursor: pointer;
+}
+
+.footer
+{
+    background-color:navy;
+    color: white;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.products-section
+{
+margin-top: 30px;
+}
+
+.products-search
+{
+    display: flex;
+    width: 80%;
+    border: solid black 3px;
+    border-radius: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+}
+
+.products-search input
+{
+    border: none;
+    background-color: transparent;
+    width: 100%;
+
+}
+
+.products-search input:focus
+{
+    outline: none;
+    
+}
+
+.products
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.product-box
+{
+    text-align: center;
+    flex-basis: 20%;
+}
+
+.product-box img
+{
+    border-radius: 10px;
+}
+
+.Topic
+{
+    margin-top: 50px;
+}
+
+
+.personal-info table {
+  border-collapse: separate;
+  border-spacing: 0 5px;
+}
+
+.personal-info td {
+  padding: 3px 5px;
+}
+
+.personal-info input {
+  padding: 5px;
+
+}
+
+.personal-info button {
+  margin-top: 15px;
+  background-color: #f5f5dc;
+  border: 1px solid #999;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.Topic-footer
+{
+    
+    margin-top: 15%;
+}
+.toggle
+{
+    display: none;
+}
+@media screen and (max-width:600px) 
+{
+    .toggle
+    {
+        display: block;
+    }    
+     .options
+    {
+        display: none;
+    }    
+
+    .service-container2
+    {
+        flex-direction: column;
+    }
+}
+
+
+   

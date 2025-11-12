@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Store</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Story+Script&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <h1>Fashion Store</h1>
+        <div class="options">
+           <p class="link"> <a href="index.html">Home</a> </p>
+            <p class="link"> <a href="collection.html">Collection</a> </p>
+            <p class="link"> <a href="contact.html">Contact</a> </p>
+        </div>
+
+        <div class="toggle" onclick="show_navbar()">
+
+            <i class="fa-solid fa-bars"></i>
+
+        </div>
+
+    </nav>
+
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="close_navbar1()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+
+        <div class="side-options">
+            <p class="side-link"> <a href="index.html">Home</a> </p>
+            <p class="side-link"> <a href="collection.html">Collection</a> </p>
+            <p class="side-link"> <a href="contact.html">Contact</a> </p>
+
+        </div>
+    </div>
+
+    <div class="products-section">
+
+        <form class="products-search">
+
+            <input type="text" id="search" placeholder="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+
+<!--products-->
+
+        <div class="products" id="product">
+
+            <div class="product-box">
+
+            <img src="white1.jpg" alt="White shirt image" style="width: 300px;" height="350px">
+            <h4>White Shirt</h4>
+
+            </div>
+
+             <div class="product-box">
+
+            <img src="black1.jpg" alt="White shirt image" style="width: 300px;" height="350px">
+            <h4>Black Shirt</h4>
+            
+            </div>
+
+             <div class="product-box">
+
+            <img src="red1.jpg" alt="White shirt image" style="width: 300px;" height="350px">
+            <h4>Red Shirt</h4>
+            
+            </div>
+
+             <div class="product-box">
+
+            <img src="green1.jpg" alt="White shirt image" style="width: 300px;" height="350px">
+            <h4>Green Shirt</h4>
+            
+            </div>
+
+            <div class="product-box">
+
+            <img src="maroon1.jpg" alt="White shirt image" style="width: 300px;" height="350px">
+            <h4>Maroon Shirt</h4>
+            
+            </div>
+
+            <div class="product-box">
+
+            <img src="white1.jpg" alt="White shirt image" style="width: 300px;" height="350px">
+            <h4>White Shirt</h4>
+
+            </div>
+
+             <div class="product-box">
+
+            <img src="black1.jpg" alt="White shirt image" style="width: 300px;" height="350px">
+            <h4>Black Shirt</h4>
+            
+            </div>
+
+             <div class="product-box">
+
+            <img src="red1.jpg" alt="White shirt image" style="width: 300px;" height="350px">
+            <h4>Red Shirt</h4>
+            
+            </div>
+
+             <div class="product-box">
+
+            <img src="green1.jpg" alt="White shirt image" style="width: 300px;" height="350px">
+            <h4>Green Shirt</h4>
+            
+            </div>
+
+            <div class="product-box">
+
+            <img src="maroon1.jpg" alt="White shirt image" style="width: 300px;" height="350px">
+            <h4>Maroon Shirt</h4>
+            
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+
+        <div class="footer-container">
+
+            <h1>Fashion Store</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, ex!</p>
+            <div class="logo">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+
+                <div class="mail">
+                    <h4>@2025 fashion store.com</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+    <script src="collection.js"></script>
+</body>
+
+</html>
