@@ -274,7 +274,7 @@ margin-top: 30px;
 {
     display: none;
 }
-@media screen and (max-width:200px) 
+@media screen and (max-width:100px) 
 {
     .toggle
     {
@@ -294,4 +294,5 @@ margin-top: 30px;
 
 
    
+
 
